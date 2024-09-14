@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BasketBall | Homepage</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="" <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Alex Anie" />
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+        header nav {
+            background-color: #000;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            top: 2rem;
+        }
+
+        .logo img {
+            width: 30px;
+            margin-left: 2rem;
+        }
+
+        .logo p {
+            color: #fff;
+            font-size: 2rem;
+            font-family: "Brotherina";
+            font-weight: lighter;
+            cursor: pointer;
+        }
+
+        .logo p,
+        .logo input {
+            display: inline-block;
+            margin-left: 2rem;
+
+        }
+
+        .logo input {
+            padding: 5px;
+            background-color: #f5f5f5;
+            background-position: 8px;
+            background-color: aqua;
+            border: none;
+            border-radius: 0.5rem;
+        }
+
+        .logo input:focus {
+            background-color: #f5b53a;
+            color: #f5f5f5;
+
+        }
+
+        header nav ul {
+            list-style: none;
+            margin-right: 6rem;
+        }
+
+        header nav ul li a:hover {
+            color: #f5b53a;
+            font-family: Brotherina;
+        }
+
+        #main_row {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-around;
+
+        }
+
+        #main_row .showcase2 h1 {
+            font-size: 4rem;
+            font-family: "Myriad Pro";
+            color: #f5b53a;
+        }
+
+        #main_row .showcase2 p {
+
+            font-family: "Myriad Pro";
+            color: #fff;
+            padding-top: 1rem;
+        }
+
+        .main_page {
+            background-color: #000;
+            height: 100vh;
+
+        }
+
+        #main_row .showcase2 button {
+
+
+            font-family: "Myriad Pro";
+            background-color: #fff;
+            padding: 1rem 2rem 1rem 2rem;
+            color: #f5b53a;
+            font-weight: bolder;
+            border: none;
+            border-radius: 0.5rem;
+            margin-top: 2rem;
+        }
+
+        #main_row .showcase2 button:hover {
+            color: #fff;
+
+            background-color: #f5b53a;
+            transition: background-color 0.5s ease-in;
+            cursor: pointer;
+        }
+
+        #main_row .showcase2 .download {
+            display: inline;
+        }
+
+        #main_row .showcase2 .download img {
+            width: 30px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main_page">
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="images.jpeg" alt="BasketBall logo">
+                    <p>BasketBall</p>
+                    <input type="search" value="Search Website" </div>
+
+                    <ul>
+                        <li>
+                            <a href="#">News</a>
+                            <a href="#">Matches</a>
+                            <a href="#">Events</a>
+                            <a href="#">About</a>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+            </nav>
+        </header>
+
+        <section id="main_row">
+            <section class="showcase">
+                <img src="download (2).jpeg" alt="BasketBall" </section>
+
+                <section class="showcase2">
+                    <h1>
+                        Hello,<br />
+                        Ballers
+                    </h1>
+                    <p>
+                        Take the challenge, shoot for the moon,<br />
+                        tell your story
+                    </p>
+                    <button>+ Join</button>
+                    <p><span>Leave a Message</p></span>
+                </section>
+            </section>
+    </div>
+</body>
